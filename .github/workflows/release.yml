@@ -12,7 +12,7 @@ jobs:
         with:
           command: manifest
           token: ${{secrets.GITHUB_TOKEN}}
-          default-branch: develop
+          default-branch: main
           monorepo-tags: true
       - uses: actions/checkout@v3
         if: ${{ steps.release.outputs.releases_created }}

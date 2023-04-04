@@ -1,0 +1,26 @@
+{
+  "name": "my-app",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/my-app/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/js:swc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/my-app",
+        "main": "packages/my-app/src/index.ts",
+        "tsConfig": "packages/my-app/tsconfig.lib.json",
+        "assets": ["packages/my-app/*.md"]
+      }
+    },
+    "publish": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "node tools/scripts/publish.mjs my-app {args.ver} {args.tag}"
+      },
+      "dependsOn": ["build"]
+    }
+  },
+  "tags": []
+}

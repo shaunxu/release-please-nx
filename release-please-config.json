@@ -1,0 +1,22 @@
+{
+    "separate-pull-requests": false,
+    "sequential-calls": false,
+    "packages": {
+        "packages/my-lib": {
+            "component": "my-lib"
+        },
+        "packages/my-app": {
+            "component": "my-lib"
+        }
+    },
+    "plugins": [
+        {
+            "type": "linked-versions",
+            "group-name": "release-please-nx",
+            "components": [
+                "my-lib",
+                "my-app"
+            ]
+        }
+    ]
+}

@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/shaunxu/release-please-nx/compare/my-lib-v1.0.0...my-lib-v1.1.0) (2023-04-04)
+
+
+### Miscellaneous Chores
+
+* **my-lib:** Synchronize undefined versions
+
 ## 1.0.0 (2023-04-04)
 
 

@@ -1,4 +1,4 @@
 {
-    "packages/my-lib": "4.0.0-next",
-    "packages/my-app": "4.0.0-next"
+    "packages/my-lib": "4.0.0",
+    "packages/my-app": "4.0.0"
 }

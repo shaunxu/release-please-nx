@@ -6,7 +6,7 @@
             "component": "my-lib"
         },
         "packages/my-app": {
-            "component": "my-lib"
+            "component": "my-app"
         }
     },
     "plugins": [

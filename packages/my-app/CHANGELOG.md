@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.0.0-next](https://github.com/shaunxu/release-please-nx/compare/my-app-v3.0.0...my-app-v4.0.0-next) (2023-04-04)
+
+
+### Build System
+
+* release 4.0.0-next ([bc68dbc](https://github.com/shaunxu/release-please-nx/commit/bc68dbc1b9858972593b15417e588d4ac8d2ccd2))
+
 ## [3.0.0](https://github.com/shaunxu/release-please-nx/compare/my-app-v2.2.0...my-app-v3.0.0) (2023-04-04)
 
 

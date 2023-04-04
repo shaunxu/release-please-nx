@@ -1,5 +1,17 @@
 # Changelog
 
+## [4.0.0-next](https://github.com/shaunxu/release-please-nx/compare/my-lib-v3.0.0...my-lib-v4.0.0-next) (2023-04-04)
+
+
+### Features
+
+* [#8](https://github.com/shaunxu/release-please-nx/issues/8) ([1f90312](https://github.com/shaunxu/release-please-nx/commit/1f903122c67173f5c7fae9f072470291a5b15987))
+
+
+### Build System
+
+* release 4.0.0-next ([bc68dbc](https://github.com/shaunxu/release-please-nx/commit/bc68dbc1b9858972593b15417e588d4ac8d2ccd2))
+
 ## [3.0.0](https://github.com/shaunxu/release-please-nx/compare/my-lib-v2.2.0...my-lib-v3.0.0) (2023-04-04)
 
 

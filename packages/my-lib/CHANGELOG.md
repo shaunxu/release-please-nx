@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.0.0](https://github.com/shaunxu/release-please-nx/compare/my-lib-v1.3.0...my-lib-v2.0.0) (2023-04-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* #2
+
+### Features
+
+* [#1](https://github.com/shaunxu/release-please-nx/issues/1) a ([27bfd2b](https://github.com/shaunxu/release-please-nx/commit/27bfd2bd14c5fb74a5eeb261ffe357c211c9a3f1))
+* [#2](https://github.com/shaunxu/release-please-nx/issues/2) ([89e16de](https://github.com/shaunxu/release-please-nx/commit/89e16de617a938bcdd6816fbc41f2984135a55f9))
+
 ## [1.3.0](https://github.com/shaunxu/release-please-nx/compare/my-lib-v1.2.0...my-lib-v1.3.0) (2023-04-04)
 
 

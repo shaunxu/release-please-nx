@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.0](https://github.com/shaunxu/release-please-nx/compare/my-app-v2.2.0...my-app-v3.0.0) (2023-04-04)
+
+
+### Miscellaneous Chores
+
+* **my-app:** Synchronize undefined versions
+
 ## [2.2.0](https://github.com/shaunxu/release-please-nx/compare/my-app-v2.1.0...my-app-v2.2.0) (2023-04-04)
 
 

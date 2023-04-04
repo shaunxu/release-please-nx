@@ -8,3 +8,9 @@ Run `nx build my-lib` to build the library.
 
 1
 2
+3
+4
+5
+6
+7
+8

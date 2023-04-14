@@ -12,12 +12,6 @@ jobs:
       matrix:
         node-version: [16.x, 18.x]
     steps:
-      - uses: sturdy-dev/codeball-action@v2
-        with:
-          approvePullRequests: "false"
-          labelPullRequestsWhenApproved: "true"
-          labelPullRequestsWhenReviewNeeded: "true"
-          failJobsWhenReviewNeeded: "false"
       - uses: actions/checkout@v3
       - name: Setup node
         uses: actions/setup-node@v3
@@ -25,3 +19,13 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: npm i
       - run: npm run build
+  code_ball:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: sturdy-dev/codeball-action@v2
+        with:
+          approvePullRequests: "false"
+          labelPullRequestsWhenApproved: "true"
+          labelPullRequestsWhenReviewNeeded: "true"
+          failJobsWhenReviewNeeded: "false"

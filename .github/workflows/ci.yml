@@ -6,11 +6,8 @@ on:
       - main
       - vnext
 jobs:
-  build:
+  code_ball:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [16.x, 18.x]
     steps:
       - uses: sturdy-dev/codeball-action@v2
         with:
@@ -18,6 +15,12 @@ jobs:
           labelPullRequestsWhenApproved: "true"
           labelPullRequestsWhenReviewNeeded: "true"
           failJobsWhenReviewNeeded: "false"
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [16.x, 18.x]
+    steps:
       - uses: actions/checkout@v3
       - name: Setup node
         uses: actions/setup-node@v3

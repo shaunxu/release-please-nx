@@ -16,6 +16,7 @@ jobs:
           labelPullRequestsWhenReviewNeeded: "true"
           failJobsWhenReviewNeeded: "false"
   build:
+    needs: code_ball
     runs-on: ubuntu-latest
     strategy:
       matrix:

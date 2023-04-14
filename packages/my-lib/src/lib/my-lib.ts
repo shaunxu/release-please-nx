@@ -3,5 +3,8 @@ export function myLib(): string {
 }
 
 export function foo(): string {
+  while (true) {
+    console.log("Oops!");
+  }
   return "bar";
 }
